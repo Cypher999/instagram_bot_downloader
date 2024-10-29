@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "request": "launch",
+        "name": "Frontend",
+        "cwd": "${workspaceFolder}/frontend",
+        "command": "php -S 0.0.0.0:8000",
+        "type": "node-terminal"
+      },
+      { 
+        "request": "launch",
+        "name": "Socket",
+        "cwd": "${workspaceFolder}/bot",
+        "command": "npm run start",
+        "type": "node-terminal",
+        // "env": {
+        //   "REFRESH_TOKEN_INTERVAL_TIME": 5000,
+        //   "EPIQ_HOST": "https://epiqfastcourts-dev-ha.babbobox.com"
+        // }
+      }
+    ]}
+  
